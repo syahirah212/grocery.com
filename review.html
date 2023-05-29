@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="assignment.css">
+    <style>
+        body{
+            background-color: snow;
+        }
+        .heading{
+            color: floralwhite; }
+        .review .box-cont{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem; }
+
+        .review .box-cont .box{
+            flex: 1 1 30rem;
+            box-shadow: 0.5rem 1.5rem black;
+            border-radius: 0.5rem;
+            padding: 3rem 2rem;
+            position: relative; }
+
+        .review .box-cont .box .stars i{
+            color: palevioletred;
+            font-size: 2rem;   }
+
+        .review .box-cont .box p{
+            color: gray;
+            font-size: 1.5rem;
+            line-height: 1.5;
+            padding-top: 2rem;  }
+        .review .box-cont .box .user{
+            display: flex;
+            align-items: center;
+            padding-top: 2rem;  }
+
+        .review .box-cont .box .user img{
+            height:6rem;
+            width: 6rem;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 1rem; }
+
+        .review .box-cont .box .user h3{
+            font-size: 1.5rem;
+            color:black; }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">FRESH FEAST</a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="product.html">product</a>
+            <a href="about.html">about</a>
+            <a href="review.html">review</a>
+        </nav>
+    </header>
+    <section class="review" id="review"><br><br><br><br>
+            <h1 class="heading"> customer's <span>review</span></h1>
+            <div class="box-cont">
+                <div class="box">
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>I had the best experience with this shop. The order is complete. Nothing is broken and everything is super fresh! Definitely recommendable.</p>
+                <div class="user">
+                    <img src="user1.jfif" alt="">
+                    <div class="user-info">
+                        <h3>K**ty</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-cont">
+                <div class="box">
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Glad to have grocery shop online. Welldone!</p>
+                <div class="user">
+                    <img src="user2.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Pin**ue</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-cont">
+                <div class="box">
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Very convenience for busy mum. Fast delivery too.</p>
+                <div class="user">
+                    <img src="user3.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Cin**</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>

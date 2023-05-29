@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    h2{
+    font-size: 50px;
+    background-color:rgb(212, 186, 150);
+    color: ivory; }
+
+body{text-align: center;}
+
+body{
+    font-size: 19px;
+    width: 100%;
+    height: 300px;
+    background-color:rgb(145, 129, 108);
+    background-size: cover; }
+
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: right; }
+
+.frm{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 247, 236); }
+
+.heading{
+    background-color: rgb(212, 186, 150); }
+
+        </style>
+    </head>
+    <body>
+        <h2>ORDER DETAILS</h2>
+
+        <form action="/actionpage.php" class="frm">
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br><br>
+            
+            <label for="contact">Contact number:</label>
+            <input type="text" id="contact"><br><br>
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address"><br><br>
+
+            <label for="fish">Fish:</label>
+            <input  type="number" value="0" id="p1"></td><br><br>
+
+            <label for="meat">Meat:</label>
+            <input  type="number" value="0" id="p2"></td><br><br>
+
+            <label for="shrimp">Shrimp:</label>
+            <input  type="number" value="0" id="p3"></td><br><br>
+
+            <label for="cabbage">Cabbage:</label>
+            <input  type="number" value="0" id="p4"></td><br><br>
+
+            <label for="cucumber">Cucumber:</label>
+            <input  type="number" value="0" id="p5"></td><br><br>
+
+            <label for="carrot">Carrot:</label>
+            <input  type="number" value="0" id="p6"></td><br><br>
+
+            <label for="orange">Orange juice:</label>
+            <input  type="number" value="0" id="p7"></td><br><br>
+
+            <label for="guava">Guava juice:</label>
+            <input  type="number" value="0" id="p8"></td><br><br>
+
+            <label for="grape">Grape:</label>
+            <input  type="number" value="0" id="p9"></td><br><br>
+
+        </form>
+       
+        <p class="heading "id="heading"></p>
+        <p id="price"></p>
+        <p id="usern"></p>
+        <p id="userc"></p>
+        <p id="usera"></p>
+        <button onclick='price()'> Calculate Price</button>
+        <script src="order.js"> </script>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="assignment.css">
+        
+        <style>
+            body{
+                background-color: rgb(252, 249, 246);
+            }
+            .heading{
+                text-align: center;
+                font-size: 4rem;
+                color: grey;
+                padding: 1rem;
+                margin: 2rem 0;
+                background-color: rgb(169, 194, 186);
+            }
+            .heading span{
+                color:snow;
+            }
+
+            .about .row{
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                flex-wrap: wrap;
+                padding: 2rem 0;
+                padding-bottom: 3rem;
+            }
+
+            .about .row .grocery{
+                flex: 1 1 40rem;
+                position: relative;
+            }
+            
+            .about .row .grocery video{
+                width: 100%;
+                border: 1.5rem;
+                border-radius: .5rem;
+                height: 100%;
+                object-fit: cover;
+            }
+            .about .row .content{
+                flex: 20rem;
+            }
+
+            .about .row .content h3{
+                font-size: 3rem;
+                color:rgb(27, 26, 26);
+                padding: 5rem 0;
+                padding-top: 1rem;
+                line-height: 1.5;
+            }
+
+            .about .row .content p{
+                font-size: 1.5rem;
+                color:rgb(48, 47, 44);
+                padding: 5rem 0;
+                padding-top: 1rem;
+                line-height: 1.5;
+            }
+
+        </style>
+    </head>
+    
+<body>
+    <header>
+        <a href="#" class="logo">FRESH FEAST</a>
+
+                <nav class="navbar">
+                    <a href="index.html">home</a>
+                    <a href="product.html">product</a>
+                    <a href="about.html">about</a>
+                    <a href="review.html">review</a>
+                </nav>
+            
+    </header>
+    <section class="about" id="about"><br><br><br>
+        <h1 class="heading"><span> about </span> us </h1>
+
+        <div class="row">
+            <div class="groceryvid">
+                <video src="vid.mp4" loop autoplay muted style="width: 600px; height:600px;"></video>
+            </div>
+        
+
+            <div class="content">
+            <h3>why choose us?</h3>
+            <p>Green Basket is a brand for a fresh, guaranteed products. It's for those who wish to have a happy stomach alongside with a healthy life. It's a brand to get your cooks done.</p>
+            <p>We will gladly delivery up to your front door.</p>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
